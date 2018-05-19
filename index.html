@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <form name="form">
+            <input class="textview">
+        </form>
+
+    <table>
+        <tr>
+            <td><input type="button" value="." data-button-type="calcul"></td>
+            <td><input type="button" value="/" data-button-type="calcul"></td>
+            <td><input type="button" value="*" data-button-type="calcul"></td>
+            <td><input type="button" value="C" data-button-type="erase"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" data-button-type="number"></td>
+            <td><input type="button" value="8" data-button-type="number"></td>
+            <td><input type="button" value="9" data-button-type="number"></td>
+            <td><input type="button" value="-" data-button-type="calcul"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" data-button-type="number"></td>
+            <td><input type="button" value="5" data-button-type="number"></td>
+            <td><input type="button" value="6" data-button-type="number"></td>
+            <td><input type="button" value="+" data-button-type="calcul"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" data-button-type="number"></td>
+            <td><input type="button" value="2" data-button-type="number"></td>
+            <td><input type="button" value="3" data-button-type="number"></td>
+            <td><input type="button" value="=" data-button-type="result"></td>
+        </tr>
+    </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
